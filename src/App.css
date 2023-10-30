@@ -1,0 +1,75 @@
+:root {
+  --bgcolor: rgb(20, 21, 26);
+  --primarycolor: rgb(196, 200, 212);
+  --textcolor: rgb(237, 238, 242);
+  --secondarycolor: rgb(26, 28, 35);
+}
+
+body {
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: var(--secondarycolor);
+}
+.compname {
+  color: var(--textcolor);
+}
+.compname:hover {
+  color: var(--textcolor);
+}
+.navlink-css {
+  color: var(--textcolor);
+}
+.navlink-css:hover {
+  color: var(--textcolor);
+}
+.heroname {
+  font-size: 5em;
+  font-weight: bold;
+}
+.herotitle {
+  font-size: 2em;
+  color: var(--textcolor);
+}
+.hiremebtn {
+  background-color: transparent;
+  color: var(--textcolor);
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  border: 2px solid var(--textcolor);
+  transition: 0.2s;
+}
+.hiremebtn:hover {
+  background-color: var(--textcolor);
+  color: var(--secondarycolor);
+}
+.secone {
+  background-color: var(--secondarycolor);
+  border-radius: 5px;
+}
+.whymecards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.whymetext {
+  font-weight: bolder;
+  font-size: 4em;
+}
+@media (max-width: 1000px) {
+  .heroname {
+    font-size: 3em;
+  }
+  .herotitle {
+    font-size: 1em;
+    color: var(--textcolor);
+  }
+  .whymetext {
+    font-weight: bolder;
+    font-size: 2em;
+  }
+}
